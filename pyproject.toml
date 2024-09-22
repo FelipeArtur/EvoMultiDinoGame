@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "evomultidinogame"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Lima <felipe.artur.ml@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+chrome-trex = {git = "https://github.com/ArielMAJ/chrome-trex-rush.git"}
+numpy = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
