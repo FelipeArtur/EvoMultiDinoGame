@@ -1,12 +1,11 @@
 import random
 import numpy as np
-import pickle
 from chrome_trex import MultiDinoGame, ACTION_UP, ACTION_FORWARD, ACTION_DOWN
 import json
 
 # Parâmetros do Algoritmo Genético
 POPULATION_SIZE = 100  # Número de dinos na população
-GENERATIONS = 100  # Número de gerações
+GENERATIONS = 50  # Número de gerações
 MUTATION_RATE = 0.4  # Probabilidade de mutação
 CROSSOVER_RATE = 0.5  # Probabilidade de crossover
 FPS = 0 # Sem limite de FPS
