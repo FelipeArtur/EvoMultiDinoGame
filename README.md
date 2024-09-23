@@ -164,3 +164,19 @@ No RL tradicional (como Q-Learning ou DQN), um agente aprende a partir de feedba
 Redes neurais treinadas com backpropagation exigem uma função de custo diferenciável. Se o ambiente do problema não for contínuo ou suave, pode ser difícil aplicar gradientes. Além disso, redes neurais exigem dados rotulados ou feedback contínuo de recompensas para treinar, o que pode não ser tão fácil de obter em alguns cenários.
 
 Portanto, o uso de Algoritmos Genéticos neste código traz simplicidade e eficácia, explorando amplamente as soluções possíveis e permitindo o uso em cenários onde os métodos tradicionais podem falhar ou ser difíceis de implementar.
+
+# Apresentação 
+
+<video width="900" height="400" controls>
+  <source src="https://youtu.be/3FTPhwXqAtc" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Instalando Dependências
+```
+poetry install
+```
+## Rodando Código
+```
+poetry run src/app/main.py
+```
